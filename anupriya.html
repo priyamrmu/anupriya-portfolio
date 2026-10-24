@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anupriya Murmu | Web Development Services</title>
+<style>
+:root{--bg:#fdf7fa;--sf:#fff;--tx:#241a2b;--mu:#6c5f75;--ac:#c2185b;--ac2:#fff;--dk:#2b1240;--soft:#f9e6ef;--bd:#efdce6;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#150d1c;--sf:#201429;--tx:#f5eef9;--mu:#b9a9c4;--ac:#ff6fa5;--ac2:#150d1c;--dk:#0e0714;--soft:#2c1a38;--bd:#3a2548;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#150d1c;--sf:#201429;--tx:#f5eef9;--mu:#b9a9c4;--ac:#ff6fa5;--ac2:#150d1c;--dk:#0e0714;--soft:#2c1a38;--bd:#3a2548;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:68px}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Segoe UI",system-ui,-apple-system,Roboto,sans-serif;line-height:1.65}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--dk);z-index:10}
+.bar{max-width:1050px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+.logo{font-weight:800;color:#fff;white-space:nowrap}
+.logo span{color:#ff8ab8}
+nav{display:flex;gap:18px;overflow-x:auto}
+nav a{color:#d9c8e6;text-decoration:none;font-size:14px;white-space:nowrap}
+nav a:hover{color:#fff}
+section{max-width:1050px;margin:0 auto;padding:64px 20px}
+h2{font-size:30px;margin:0 0 8px}
+h2 span{color:var(--ac)}
+.sub{color:var(--mu);max-width:620px;margin:0 0 30px}
+.hero{background:linear-gradient(160deg,var(--dk),#4a1d6b);color:#fff}
+.hero .in{max-width:1050px;margin:0 auto;padding:80px 20px 72px;display:grid;grid-template-columns:1.5fr 1fr;gap:34px;align-items:center}
+.pill{display:inline-block;background:rgba(255,255,255,.12);padding:6px 14px;border-radius:30px;font-size:13px}
+h1{font-size:clamp(34px,6vw,54px);line-height:1.1;margin:16px 0 12px}
+h1 span{color:#ff8ab8}
+.hero p{color:#e6d8f0;max-width:540px;font-size:17px}
+.btn{display:inline-block;padding:12px 26px;border-radius:30px;text-decoration:none;font-weight:700;margin:18px 12px 0 0;border:2px solid #ff8ab8}
+.b1{background:#ff8ab8;color:#2b1240}
+.b2{color:#ff8ab8}
+.av{aspect-ratio:1;max-width:260px;width:100%;margin:auto;border-radius:50%;background:linear-gradient(135deg,#ff8ab8,#7b3fb0);display:flex;align-items:center;justify-content:center;font-size:76px;font-weight:800;color:#fff;border:6px solid rgba(255,255,255,.2)}
+.about{display:grid;grid-template-columns:1.3fr 1fr;gap:30px;align-items:start}
+.facts{background:var(--soft);border-radius:18px;padding:22px}
+.facts div{padding:8px 0;border-bottom:1px solid var(--bd);font-size:15px}
+.facts div:last-child{border:none}
+.facts b{display:block;color:var(--ac);font-size:12px;letter-spacing:1px;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--sf);border:1px solid var(--bd);border-radius:18px;padding:24px}
+.card .ic{font-size:28px;margin-bottom:10px}
+.card h3{margin:0 0 6px;font-size:18px}
+.card p{margin:0;color:var(--mu);font-size:15px}
+.k{color:var(--ac);font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase}
+.alt{background:var(--sf);border-top:1px solid var(--bd);border-bottom:1px solid var(--bd)}
+.alt .wrap{max-width:1050px;margin:0 auto;padding:64px 20px}
+.tags span{display:inline-block;background:var(--soft);color:var(--ac);border-radius:30px;padding:6px 16px;margin:0 8px 10px 0;font-size:14px;font-weight:600}
+.contact{text-align:center;background:var(--dk);color:#fff}
+.contact .in{max-width:640px;margin:0 auto;padding:64px 20px}
+.contact p{color:#d9c8e6}
+footer{text-align:center;color:var(--mu);font-size:13px;padding:22px 20px}
+@media(max-width:760px){.hero .in,.about{grid-template-columns:1fr}.av{max-width:150px;font-size:48px;order:-1}.logo{display:none}.hero .in{text-align:center}.hero p{margin:auto}}
+</style>
+</head>
+<body>
+<header><div class="bar"><div class="logo">Anupriya<span>.</span>Murmu</div>
+<nav><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#internship">Internship</a><a href="#contact">Contact</a></nav></div></header>
+
+<div class="hero" id="home"><div class="in">
+<div>
+<span class="pill">Web Development · Student Developer</span>
+<h1>Hi, I’m Anupriya.<br>I build <span>clean websites.</span></h1>
+<p>CSE diploma student who creates simple, responsive and user-friendly web pages with HTML, CSS, JavaScript, PHP and Laravel.</p>
+<a class="btn b1" href="#services">My Services</a><a class="btn b2" href="#contact">Contact Me</a>
+</div>
+<div class="av">AM</div>
+</div></div>
+
+<section id="about">
+<div class="about">
+<div><h2>About <span>Me</span></h2>
+<p class="sub" style="margin-bottom:12px">I am Anupriya Murmu, a Computer Science and Engineering diploma student at Government Women’s Polytechnic, Ranchi. I love programming and learning new technologies, and I want to build a career in the software industry.</p>
+<p class="sub" style="margin:0">This website was created with AI tools as part of my Web Development internship at InAmigos Foundation.</p></div>
+<div class="facts">
+<div><b>Education</b>Diploma in CSE, 5th Semester</div>
+<div><b>College</b>Government Women’s Polytechnic, Ranchi</div>
+<div><b>Interest</b>Web development &amp; programming</div>
+<div><b>Goal</b>Career in the software industry</div>
+</div>
+</div>
+</section>
+
+<div class="alt" id="services"><div class="wrap">
+<h2>My <span>Services</span></h2>
+<p class="sub">What I can build for students, small businesses and organisations.</p>
+<div class="grid">
+<div class="card"><div class="ic">🌐</div><h3>Static Websites</h3><p>Clean multi-page websites for businesses, NGOs and personal portfolios.</p></div>
+<div class="card"><div class="ic">📱</div><h3>Responsive Design</h3><p>Pages that look good on mobile, tablet and desktop screens.</p></div>
+<div class="card"><div class="ic">⚙️</div><h3>PHP &amp; Laravel Basics</h3><p>Simple dynamic pages and small web applications using PHP and Laravel.</p></div>
+<div class="card"><div class="ic">🤖</div><h3>AI-Assisted Building</h3><p>Using AI tools to plan, design and speed up website creation.</p></div>
+</div>
+</div></div>
+
+<section id="skills">
+<h2>My <span>Skills</span></h2>
+<p class="sub">Technologies I work with.</p>
+<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Laravel</span><span>Python (Basic)</span><span>Computer Basics</span></div>
+</section>
+
+<div class="alt" id="projects"><div class="wrap">
+<h2>My <span>Projects</span></h2>
+<p class="sub">Some of the work I have done.</p>
+<div class="grid">
+<div class="card"><span class="k">Seminar Project</span><h3>Movie Recommendation System</h3><p>A system that suggests movies to users based on their interests.</p></div>
+<div class="card"><span class="k">Internship Task 3</span><h3>AI-Generated Website</h3><p>This multi-section website, built using AI tools.</p></div>
+</div>
+</div></div>
+
+<section id="internship">
+<h2>Internship &amp; <span>Training</span></h2>
+<p class="sub">Learning by doing.</p>
+<div class="grid">
+<div class="card"><span class="k">Ongoing</span><h3>InAmigos Foundation</h3><p>Web Development internship with practical tasks.</p></div>
+<div class="card"><span class="k">IBM SkillsBuild</span><h3>Machine Learning for Data Science Projects</h3><p>Completed online course.</p></div>
+<div class="card"><span class="k">IBM SkillsBuild</span><h3>Getting Started with Generative AI</h3><p>Completed online course.</p></div>
+</div>
+</section>
+
+<div class="contact" id="contact"><div class="in">
+<h2>Let’s <span style="color:#ff8ab8">Work Together</span></h2>
+<p>Have a project or an opportunity? Send me an email.</p>
+<a class="btn b1" href="mailto:anupriyamurmu38@gmail.com">anupriyamurmu38@gmail.com</a>
+</div></div>
+
+<footer>© 2026 Anupriya Murmu · Created with AI tools · InAmigos Foundation Internship, Task 3</footer>
+</body>
+</html>
